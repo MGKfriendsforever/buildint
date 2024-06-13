@@ -1,0 +1,137 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.mainpage {
+    display: flex;
+    background-color: #091224;
+    height: 100vh;
+    width: 100vw;
+    font-family: inter;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: inherit;
+    border: 0px 1px 0px 0px;
+    background-color: #0F172B;
+}
+
+.logo {
+    width: 162px;
+    height: 28px;
+    padding: 20px 0 0 40px;
+}
+
+.option {
+    padding-top: 70px;
+    list-style: none;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    padding: 15px 0 15px 20px;
+}
+
+.nav-item-active {
+    display: flex;
+    align-items: center;
+    padding: 15px 0 15px 20px;
+    margin-right: 20px;
+    background-color: #19223F;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.nav-text {
+    color: #677083;
+    padding-left: 10px;
+}
+
+.nav-text-active {
+    list-style: none;
+    color: #677083;
+    font-family: inter;
+    padding-left: 10px;
+    color: #E6FC5FD9;
+}
+
+.material-symbols-outlined {
+    color: #677083;
+    font-size: 28px !important;
+}
+
+.active-icon {
+    color: #E6FC5FD9;
+    font-size: 2rem !important;
+}
+
+.screen-color {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 300px 30px 40px 20px;
+}
+
+.screen-color-dark {
+    background-color: #C7DB58;
+    color: #000000;
+    padding: 10px 15px 10px 15px;
+    border-radius: 4px;
+    border: transparent;
+}
+
+.screen-color-light {
+    border: 1px solid #667085;
+    padding: 10px 15px 10px 15px;
+    color: #84809C;
+    border-radius: 4px;
+    margin-right: 10px;
+    background-color: #0F172B;
+}
+
+.common-bar {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+}
+
+.head-bar {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    border: 0px 1px 0px 0px;
+    background-color: #0F172B;
+    padding: 10px;
+}
+
+.menu {
+    color: #CDCDD5;
+    width: 24px;
+    height: 24px;
+}
+
+.search-input {
+    width: 288px;
+    height: 40px;
+    padding: 15px 0 0 76px;
+    background-color: #19223F;
+    border-radius: 50px;
+    border: transparent;
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+
+}
+
+.search-icon {
+    padding-left: 70px;
+}
+
+.headset-icon {
+    padding: 0 10px 0 500px;
+}
