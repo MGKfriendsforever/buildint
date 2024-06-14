@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Client Management | Buildint</title>
     <!--css link-->
-    <Link rel="stylesheet" href="cliend management.css">
+    <Link rel="stylesheet" href="createclient.css">
     <!--font link-->
     <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
     <!--icon link-->
@@ -117,119 +117,80 @@
                     <option>Captain Amit Rai</option>
                     <option>Add Account</option>
                 </select>
-
             </div>
             <div class="titlebar">
                 <div class="common-bar">
-                    <h1>Client Management</h1>
-                    <p>Client List /</p>
+                    <h1>Create Client</h1>
+                    <p>Client List /Create Client </p>
                 </div>
-                <div class="search-container client-search">
-                    <input type="text" placeholder="Search Client" class="search-input">
-                    <span class="material-symbols-outlined search-icon">
-                        search
-                    </span>
+            </div>
+            <div class="client-logo">
+                <label for="client-logo" class="detail-font">Client Logo</label>
+                <input id="client-logo" type="file" class="file">
+            </div>
+            <div class="row-direction">
+                <div class="column-direction">
+                    <label for="client-id" class="detail-font">Client ID</label>
+                    <input id="client-id" class="detail-select">
                 </div>
-                <select class="client-search filter">
-                    <option>Filter by</option>
-                    <option>active</option>
-                    <option>non active</option>
-                </select>
+                <div class="column-direction">
+                    <label for="client-id" class="detail-font">Client Name</label>
+                    <input id="client-id" class="detail-select">
+                </div>
+                <div class="column-direction">
+                    <label for="client-id" class="detail-font">Client Type</label>
+                    <select id="client-id" class="detail-select">
+                        <option>direct</option>
+                        <option>indirect</option>
+                    </select>
+                </div>
+                <div class="column-direction">
+                    <label for="client-id" class="detail-font">Status</label>
+                    <select id="client-id" class="detail-select">
+                        <option>Active</option>
+                        <option>Inactive</option>
+                    </select>
+                </div>
 
             </div>
-            <div>
-
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Client Name</th>
-                            <th>ClientID</th>
-                            <th>No.of Location</th>
-                            <th>Contact Number </th>
-                            <th>E-Mail ID</th>
-                            <th>Status</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>ICICI Bank</td>
-                            <td>SB26621F62</td>
-                            <td>066</td>
-                            <td>9092347820</td>
-                            <td>arunram12@gmail.com</td>
-                            <td class="active">Active<span class="material-symbols-outlined">
-                                more_vert
-                                </span></td>
-                        </tr>
-                        <tr>
-                            <td>UNION Bank</td>
-                            <td>SB26621F62</td>
-                            <td>066</td>
-                            <td>9092347820</td>
-                            <td>arunram12@gmail.com</td>
-                            <td class="active">Active<span class="material-symbols-outlined">
-                                more_vert
-                                </span></td>
-                        </tr>
-                        <tr>
-                            <td>HDFC Bank</td>
-                            <td>SB26621F62</td>
-                            <td>066</td>
-                            <td>9092347820</td>
-                            <td>arunram12@gmail.com</td>
-                            <td class="inactive">In Activce<span class="material-symbols-outlined">
-                                more_vert
-                                </span></td>
-                        </tr>
-                        <tr>
-                            <td>UNION Bank</td>
-                            <td>SB26621F62</td>
-                            <td>066</td>
-                            <td>9092347820</td>
-                            <td>arunram12@gmail.com</td>
-                            <td class="active">Active<span class="material-symbols-outlined">
-                                more_vert
-                                </span></td>
-                        </tr>
-                        <tr>
-                            <td>UNION Bank</td>
-                            <td>SB26621F62</td>
-                            <td>066</td>
-                            <td>9092347820</td>
-                            <td>arunram12@gmail.com</td>
-                            <td class="active">Active<span class="material-symbols-outlined">
-                                more_vert
-                                </span></td>
-                        </tr> <tr>
-                            <td>UNION Bank</td>
-                            <td>SB26621F62</td>
-                            <td>066</td>
-                            <td>9092347820</td>
-                            <td>arunram12@gmail.com</td>
-                            <td class="active">Active<span class="material-symbols-outlined">
-                                more_vert
-                                </span></td>
-                        </tr>  <tr>
-                            <td>UNION Bank</td>
-                            <td>SB26621F62</td>
-                            <td>066</td>
-                            <td>9092347820</td>
-                            <td>arunram12@gmail.com</td>
-                            <td class="active">
-                                Active
-                                <span class="material-symbols-outlined">
-                                    more_vert
-                                    </span></td>
-                        </tr>
-                    </tbody>
-                </table>
+            <div class="detail-input">
+                <button class="detail-element">Contact Person</button>
+                <button class="detail-element">Report</button>
+                <button class="detail-element">+ Add More</button>
             </div>
-            <div class="footer">
-                <button><a href="\mainpage\cliend management.html" target="_blank" class="createclient"> + Create Client</a></button>
+            <hr>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Salutation</th>
+                        <th>Name</th>
+                        <th>Role</th>
+                        <th>Email</th>
+                        <th>Phone Number </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mr</td>
+                        <td>Karthik</td>
+                        <td>Manager</td>
+                        <td>karthikpalani@gmail.com</td>
+                        <td>9345233351</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="add">+ Add Contact Person</p>
+            <div class="screen-color submit">
+                <button class="screen-color-light">
+                    Cancel
+                </button>
+                <button class="screen-color-dark">
+                    Submit
+                </button>
             </div>
         </div>
     </div>
-
+    </div>
 </body>
 
 </html>

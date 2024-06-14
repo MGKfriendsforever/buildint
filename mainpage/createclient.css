@@ -127,6 +127,7 @@
     border: transparent;
     font-size: 12px;
     font-weight: 500;
+    color: #FFFFFF;
 }
 
 .search-input {
@@ -183,7 +184,7 @@
     align-items: center;
     height: 100px;
     color: #FFFFFF;
-    margin: 10px 10px 0 30px;
+    margin: 10px 10px 0 40px;
 }
 
 .client-search {
@@ -195,54 +196,92 @@
     font-weight: 600 !important;
 }
 
-.filter {
-    height: 40px;
+.client-logo {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 0 0 10px 40px;
+}
+
+.file {
+    border: 0.5px solid #50596C;
+    border-radius: 4px;
+    height: 93px;
+    width: 270px;
+    margin-top: 10px;
+}
+
+.row-direction {
+    display: flex;
+    margin-left: 20px;
+}
+
+.column-direction {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 0 20px ;
+}
+
+.detail-font {
+    color:  #A5A5A9;
+    font-size :20px;
+}
+
+.detail-select {
+    width: 230.6px;
+    height: 43px;
+    margin-top: 5px;
+    background-color:  #091224;
+    border: 0.5px solid #50596C;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+.detail-input {
+    display:flex ;
+    padding: 20px 10px 10px 10px;
+}
+
+.detail-element {
+    padding: 10px 20px 10px 20px;
     background-color: #091224;
-    color: #A5A5A9 !important;
+    margin: 10px 0 10px 40px;
+    border: transparent;
+    color: #E2E8F0;
+    font-size: 20px;
+}
+
+hr {
+    border: 1px solid #50596C
 }
 
 table {
-    border-collapse: collapse;
-    width:  80vw;
-    height:50vh;
-    
+    border-width: 1px, 1px, 0px, 1px;
+    border-color: soild #50596C;
 }
 
 th {
-    background-color: #19223F;
-text-align: left;
-    padding: 20px;
+       background-color: #19223F;
+    height: 17px;
+    width: 100px;
+    padding: 15px;
 }
 
 td {
-    text-align: left;
-    padding: 20px;
+    padding: 15px ;
+    border-width: 1px, 1px, 0px, 1px;
+    border-color: soild #50596C;
 }
 
-tr {
-    border-bottom: 1px solid #A5A5A933;
+.add {
+    color: #E6FC5F;
 }
 
-.active {
-    color: #02C94F;
-}
-
-.inactive {
-    color: #F40000;
-}
-
-.footer {
+.submit {
+    margin:100px 40px 40px 200px !important;
     display: flex;
     justify-content: end;
-    align-items: center;
-    background-color: #192236;
-    height: 100px;
 }
 
-.createclient {
-    background-color: #C7DB58;
-    color : #000;
-    padding: 18px;
-    font-weight: 600;
-    text-decoration: none;
-}
+
