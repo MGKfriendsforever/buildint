@@ -19,12 +19,13 @@
         <div class="sidebar">
             <img src="/images/Logo.png" class="logo">
             <ul class="option">
-                <div class="nav-item">
+               <a href="dashboard.html"> <div class="nav-item">
                     <span class="material-symbols-outlined">Dashboard</span>
                     <li class="nav-text">
                         Dashboard
                     </li>
-                </div>
+                </div></a>
+                <a href="computer.html">
                 <div class="nav-item">
                     <span class="material-symbols-outlined">
                         computer
@@ -32,19 +33,22 @@
                     <li class="nav-text">
                         Device Management
                     </li>
-                </div>
+                </div></a>
+                <a href="client.html">
                 <div class="nav-item-active">
                     <span class="material-symbols-outlined active-icon">group</span>
                     <li class="nav-text-active">
                         Client Management
                     </li>
-                </div>
+                </div></a>
+                <a href="alerts.html">
                 <div class="nav-item">
                     <span class="material-symbols-outlined">fmd_bad</span>
                     <li class="nav-text">
                         Alerts Management
                     </li>
-                </div>
+                </div></a>
+                <a href="report">
                 <div class="nav-item">
                     <svg width="28" height="28" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <mask id="mask0_359_758" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
@@ -66,7 +70,7 @@
                     <li class="nav-text">
                         Report
                     </li>
-                </div>
+                </div></a>
             </ul>
             <div class="screen-color">
                 <button class="screen-color-light">
@@ -104,20 +108,22 @@
                     notifications
                 </span>
                 <img src="/images/profile-image.png" alt="">
+                
                 <div class="profile">
-                    <label for="profile">
+                    <div for="profile">
                         <h1 class="profile-name">
                             Captain Amit Rai
                         </h1>
                         <p class="position">Super Admin</p>
-                    </label>
+                    </div>
+                    <div>
+                        <select class="droupdown">
+                            <option></option>
+                            <option>Captain Amit Rai</option>
+                            <option>Add Account</option>
+                        </select>
+                    </div>
                 </div>
-                <select class="droupdown">
-                    <option></option>
-                    <option>Captain Amit Rai</option>
-                    <option>Add Account</option>
-                </select>
-
             </div>
             <div class="titlebar">
                 <div class="common-bar">
@@ -152,14 +158,19 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>ICICI Bank</td>
+                            <td>
+                               <img src="/images/icic.png">
+                                ICICI Bank
+                            </td>
                             <td>SB26621F62</td>
                             <td>066</td>
                             <td>9092347820</td>
                             <td>arunram12@gmail.com</td>
-                            <td class="active">Active<span class="material-symbols-outlined">
+                            <td class="active">
+                                <div>Active</div>
+                                <div><span class="material-symbols-outlined edit">
                                 more_vert
-                                </span></td>
+                                </span></div></td>
                         </tr>
                         <tr>
                             <td>UNION Bank</td>
@@ -167,7 +178,7 @@
                             <td>066</td>
                             <td>9092347820</td>
                             <td>arunram12@gmail.com</td>
-                            <td class="active">Active<span class="material-symbols-outlined">
+                            <td class="active">Active<span class="material-symbols-outlined edit">
                                 more_vert
                                 </span></td>
                         </tr>
@@ -187,7 +198,7 @@
                             <td>066</td>
                             <td>9092347820</td>
                             <td>arunram12@gmail.com</td>
-                            <td class="active">Active<span class="material-symbols-outlined">
+                            <td class="active">Active<span class="material-symbols-outlined edit">
                                 more_vert
                                 </span></td>
                         </tr>
@@ -197,7 +208,7 @@
                             <td>066</td>
                             <td>9092347820</td>
                             <td>arunram12@gmail.com</td>
-                            <td class="active">Active<span class="material-symbols-outlined">
+                            <td class="active">Active<span class="material-symbols-outlined edit">
                                 more_vert
                                 </span></td>
                         </tr> <tr>
@@ -206,7 +217,7 @@
                             <td>066</td>
                             <td>9092347820</td>
                             <td>arunram12@gmail.com</td>
-                            <td class="active">Active<span class="material-symbols-outlined">
+                            <td class="active">Active<span class="material-symbols-outlined edit">
                                 more_vert
                                 </span></td>
                         </tr>  <tr>
@@ -217,7 +228,7 @@
                             <td>arunram12@gmail.com</td>
                             <td class="active">
                                 Active
-                                <span class="material-symbols-outlined">
+                                <span class="material-symbols-outlined edit">
                                     more_vert
                                     </span></td>
                         </tr>
@@ -225,7 +236,7 @@
                 </table>
             </div>
             <div class="footer">
-                <button class="button"><a href="createcliuent.html" target="_blank" class="createclient"> + Create Client</a></button>
+                <a href="createcliuent.html" target="_blank" class="createclient"><button class="button">+ Create Client</button></a>
             </div>
         </div>
     </div>

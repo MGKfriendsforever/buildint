@@ -157,6 +157,7 @@
     padding-left: 10px;
     align-items: center;
     position: relative;
+    /* margin-left: 20px; */
 }
 
 .profile-name {
@@ -177,6 +178,8 @@
     outline: none;
     font-size: 16px;
     color: #FFFFFF;
+    width: 24px;
+    height: 24px;
 }
 
 .titlebar {
@@ -201,15 +204,41 @@
     flex-direction: column;
     font-weight: 500;
     font-size: 20px;
-    padding: 0 0 10px 40px;
+    width: 280px;
+    height: 93px;
+    padding: 30px 92px 20px 40px;
+    border-radius: 4px 0px 0px 0px;
+    border: 0.5px 0px 0px 0px;
+
 }
 
-.file {
+.file-container {
     border: 0.5px solid #50596C;
     border-radius: 4px;
     height: 93px;
     width: 270px;
     margin-top: 10px;
+}
+
+.logo-upload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 250px;
+    border: 0.5px solid #50596C;
+    padding: 10px;
+}
+
+.textupload {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: #666666;
+}
+
+.file {
+    display: none;
 }
 
 .row-direction {
@@ -220,26 +249,27 @@
 .column-direction {
     display: flex;
     flex-direction: column;
-    padding: 20px 0 0 20px ;
+    padding: 20px 0 0 20px;
 }
 
 .detail-font {
-    color:  #A5A5A9;
-    font-size :20px;
+    color: #A5A5A9;
+    font-size: 20px;
 }
 
 .detail-select {
     width: 230.6px;
     height: 43px;
     margin-top: 5px;
-    background-color:  #091224;
+    background-color: #091224;
     border: 0.5px solid #50596C;
     border-radius: 4px;
     color: #FFFFFF;
+    padding-left: 10px;
 }
 
 .detail-input {
-    display:flex ;
+    display: flex;
     padding: 20px 10px 10px 10px;
 }
 
@@ -257,21 +287,26 @@ hr {
 }
 
 table {
-    border-width: 1px, 1px, 0px, 1px;
-    border-color: soild #50596C;
+    border: 1px soild #50596C;
+    margin:20px ;
 }
 
 th {
-       background-color: #19223F;
+    background-color: #19223F;
     height: 17px;
     width: 100px;
     padding: 15px;
+    text-align: left;
+    border-color: soild #50596C;
 }
 
 td {
-    padding: 15px ;
+    padding: 15px;
     border-width: 1px, 1px, 0px, 1px;
-    border-color: soild #50596C;
+    border-color: 1px soild #50596C;
+}
+tr {
+    border-color: 1px soild #50596C;
 }
 
 .add {
@@ -279,7 +314,11 @@ td {
 }
 
 .submit {
-    margin:100px 40px 40px 200px !important;
+    margin: 100px 40px 40px 200px !important;
     display: flex;
     justify-content: end;
+}
+
+a {
+    text-decoration: none;
 }

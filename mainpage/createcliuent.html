@@ -19,32 +19,37 @@
         <div class="sidebar">
             <img src="/images/Logo.png" class="logo">
             <ul class="option">
-                <div class="nav-item">
+               <a href="dashboard"> <div class="nav-item">
                     <span class="material-symbols-outlined">Dashboard</span>
                     <li class="nav-text">
                         Dashboard
                     </li>
                 </div>
-                <div class="nav-item">
+                </a>
+                <a href="device.html"><div class="nav-item">
                     <span class="material-symbols-outlined">
                         computer
                     </span>
                     <li class="nav-text">
                         Device Management
                     </li>
-                </div>
+                </div></a>
+                <a href="client management">
                 <div class="nav-item-active">
                     <span class="material-symbols-outlined active-icon">group</span>
                     <li class="nav-text-active">
                         Client Management
                     </li>
-                </div>
+                </div></a>
+                <a href="alert.html">
                 <div class="nav-item">
                     <span class="material-symbols-outlined">fmd_bad</span>
                     <li class="nav-text">
                         Alerts Management
                     </li>
                 </div>
+                </a>
+                <a href="report">
                 <div class="nav-item">
                     <svg width="28" height="28" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <mask id="mask0_359_758" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
@@ -66,7 +71,7 @@
                     <li class="nav-text">
                         Report
                     </li>
-                </div>
+                </div></a>
             </ul>
             <div class="screen-color">
                 <button class="screen-color-light">
@@ -123,10 +128,14 @@
                     <h1>Create Client</h1>
                     <p>Client List /Create Client </p>
                 </div>
-            </div>
+            </div>  
             <div class="client-logo">
-                <label for="client-logo" class="detail-font">Client Logo</label>
-                <input id="client-logo" type="file" class="file">
+                <label for="climaterial-symbols-outlinedent-logo" class="detail-font">Client Logo</label>
+                   <label for="client-logo" class="logo-upload">
+                       <span class="material-symbols-outlined">upload</span>
+                       <h1 class="textupload">Upload</h1>
+                    </label>     
+                    <input id="client-logo" type="file" class="file">
             </div>
             <div class="row-direction">
                 <div class="column-direction">
@@ -140,8 +149,8 @@
                 <div class="column-direction">
                     <label for="client-id" class="detail-font">Client Type</label>
                     <select id="client-id" class="detail-select">
-                        <option>direct</option>
-                        <option>indirect</option>
+                        <option>Direct</option>
+                        <option>Indirect</option>
                     </select>
                 </div>
                 <div class="column-direction">
@@ -179,14 +188,18 @@
                     </tr>
                 </tbody>
             </table>
-            <p class="add">+ Add Contact Person</p>
+            <a href="addcontant.html">
+            <p class="add">+ Add Contact Person</p></a>
             <div class="screen-color submit">
+                <a href="cancel">
                 <button class="screen-color-light">
                     Cancel
                 </button>
+                </a>
+                <a href="sunmit">
                 <button class="screen-color-dark">
                     Submit
-                </button>
+                </button></a>
             </div>
         </div>
     </div>
